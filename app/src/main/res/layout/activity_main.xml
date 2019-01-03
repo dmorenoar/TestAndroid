@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonMain"
+        android:layout_width="394dp"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="clicame"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintCircle="@color/colorPrimary"
+        tools:layout_editor_absoluteY="466dp" />
+
+</android.support.constraint.ConstraintLayout>
